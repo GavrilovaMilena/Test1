@@ -1,0 +1,46 @@
+.geography {
+    display: flex;
+    flex-direction: row;
+}
+
+.geography__text_title {
+  width: 298px;
+  height: 44px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 44px;
+  color: #001a33;
+  margin: 94px 0 22px 200px;
+}
+
+.geography__text_subtitle {
+  width: 483px;
+  height: 99px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 150.52%;
+  color: #001a33;
+  margin: 0 0 19px 200px;
+}
+
+.geography__text_about {
+  width: 484px;
+  height: 225px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 156.46%;
+  color: rgba(0, 26, 51, 0.7);
+  margin: 0 0 84px 200px;
+}
+
+.geography__image {
+    margin: 69px 0 0 0;
+}
+
+.geography__image_map {
+  width: 724px;
+  height: 455px;
+}

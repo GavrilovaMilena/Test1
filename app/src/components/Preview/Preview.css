@@ -1,0 +1,40 @@
+.preview {
+  position: relative;
+}
+
+.preview__image {
+  width: 1600px;
+  z-index: 0;
+  margin-top: 12px;
+}
+
+.preview__text {
+  z-index: 1;
+  left: 378.17px;
+  top: 90px;
+  position: absolute;
+}
+
+.preview__title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 55px;
+  text-align: center;
+  letter-spacing: 0.015em;
+  color: #ffffff;
+  width: 846.93px;
+  height: 110px;
+}
+
+.preview__subtitle {
+  width: 585px;
+  height: 56px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 156.46%;
+  text-align: center;
+  color: #ffffff;
+  margin: auto;
+}

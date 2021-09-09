@@ -1,0 +1,87 @@
+.header {
+  width: 1600px;
+  height: 90px;
+  display: flex;
+  flex-direction: row;
+}
+
+.header__logo {
+  margin: 22px 0 45px 200px;
+  display: flex;
+  flex-direction: row;
+}
+
+.header__logo_image {
+  width: 48.52px;
+  height: 45.05px;
+  margin-right: 8px;
+}
+
+.header__name {
+  width: 95px;
+  height: 23px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  margin: 0;
+}
+
+.header__slogan {
+  width: 162px;
+  height: 18px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.015em;
+  color: rgba(14, 14, 14, 0.61);
+  margin: 0;
+}
+
+.header__menu {
+  display: flex;
+  flex-direction: row;
+}
+
+.header__menu_text {
+  width: 88px;
+  height: 15px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  text-align: center;
+  transition: 1s;
+  padding: 37px 32px 38px 32px;
+}
+
+.header__menu_text:hover {
+  background-color: #4169c1;
+  transition: 1s;
+  color: #fff;
+}
+
+.header__number {
+    display: flex;
+    flex-direction: row;
+}
+
+.header__number_image {
+  width: 32px;
+  height: 32px;
+  margin: 35px 10px 30px 150px;
+}
+
+.header__number_phone {
+  width: 181px;
+  height: 28px;
+  margin: 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 28px;
+  margin: 36px 0 32px 0;
+}
