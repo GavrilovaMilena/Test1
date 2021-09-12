@@ -3,6 +3,7 @@ import Header from '../Header/Header'
 import Preview from '../Preview/Preview'
 import Geography from '../Geography/Geography'
 import Portfolio from '../Portfolio/Portfolio'
+import Advantages from '../Advantages/Advantages'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Preview />
         <Geography />
         <Portfolio />
+        <Advantages />
       </div>
     </div>
   );

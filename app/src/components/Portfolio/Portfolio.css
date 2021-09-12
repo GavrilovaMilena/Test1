@@ -1,5 +1,7 @@
 .portfolio {
   background: #f4f8ff;
+  position: relative;
+  height: 720px;
 }
 
 .portfolio__title {
@@ -11,5 +13,129 @@
   line-height: 44px;
   text-align: center;
   color: #001a33;
-  margin: 70px auto 37px auto;
+  margin: 0 auto 37px auto;
+  padding-top: 70px;
+}
+
+.portfolio__img {
+  width: 408px;
+  height: 540px;
+  z-index: 2;
+  position: absolute;
+  left: 273px;
+  top: 140px;
+}
+
+.portfolio__button {
+  border: none;
+  background: #f4f8ff;
+}
+
+.portfolio__button_back {
+  position: absolute;
+  left: 199px;
+  top: 369px;
+}
+
+.portfolio__button_forward {
+  position: absolute;
+  left: 1400px;
+  top: 369px;
+}
+
+.portfolio__button_form {
+  width: 410px;
+  height: 70px;
+  background: #fd6612;
+  border-radius: 37.5px;
+  color: #ffff;
+  border: none;
+  position: absolute;
+  left: 103px;
+  top: 292px;
+}
+
+.portfolio__button_form-text {
+  width: 218.32px;
+  height: 25px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 23px 94px 23px 94px;
+}
+
+.portfolio__form {
+  background: #4169c1;
+  color: #fff;
+  width: 718px;
+  height: 445px;
+  position: absolute;
+  left: 610px;
+  top: 193px;
+}
+
+.portfolio__form_title {
+  width: 172px;
+  height: 28px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 28px;
+  margin: 0;
+  padding: 40px 0 9px 103px;
+}
+
+.portfolio__form_subtitle {
+  width: 481px;
+  height: 50px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 156.46%;
+  color: rgba(255, 255, 255, 0.7);
+  margin: 0;
+  padding: 0 0 29px 103px;
+}
+
+.portfolio__form_title-two {
+  width: 202px;
+  height: 23px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  margin: 0;
+  padding: 0 0 17px 103px;
+}
+
+.portfolio__form-text {
+  display: flex;
+  flex-direction: row;
+  padding: 0 0 39px 103px;
+}
+
+.portfolio__p {
+  width: 250px;
+  height: 20px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0;
+}
+
+.portfolio__form-text_one-one {
+  display: flex;
+  flex-direction: row;
+  padding: 0 28px 17px 0;
+}
+
+.portfolio__form-text_two-two {
+  display: flex;
+  flex-direction: row;
+  padding: 0 0 17px 0;
 }
